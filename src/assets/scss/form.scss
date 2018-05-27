@@ -1,0 +1,36 @@
+/************* Form stylings - START ***************/
+.form-container{
+    position: relative;
+    left: 35%;
+    .errorMsg{
+        width: 400px;
+        list-style: none;
+        padding: 10px;
+        border: 1px solid red;
+        color: red;
+    }
+    .form-elements{
+        display: block;
+        width: 400px;
+        clear: both;
+        label{
+            padding: 10px;
+            font-family: sans-serif;
+            font-size: 20px;
+            float: left;
+        }
+        
+        input[type='text'],
+        input[type='password'],
+        input[type='submit']
+        {
+            float: right;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    }
+}
+
+/************* Form stylings - END ***************/
